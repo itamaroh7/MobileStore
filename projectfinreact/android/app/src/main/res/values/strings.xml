@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">projectfinreact</string>
+    <string name="title_activity_main">projectfinreact</string>
+    <string name="package_name">io.ionic.projectfinreact</string>
+    <string name="custom_url_scheme">io.ionic.projectfinreact</string>
+</resources>

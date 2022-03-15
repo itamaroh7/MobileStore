@@ -1,0 +1,7 @@
+{
+    "name": "projectfinreact",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
