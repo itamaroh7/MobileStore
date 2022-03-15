@@ -5,7 +5,7 @@ import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import {useEffect, useState} from 'react'
 import {useSelector} from 'react-redux'
 import Utils from './Utils';
-import PurchaseCardComp from './PurchaseCard';
+import PurchaseCardComp from './Purchase/PurchaseCard';
 
 function PurchasesComp() {
   const [selectProd,setSelectProd] = useState({Name:'',Price:'',Quantity:''})

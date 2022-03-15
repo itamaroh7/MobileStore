@@ -14,15 +14,15 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import {Route,BrowserRouter as Router,Switch,useHistory,withRouter} from 'react-router-dom'
 import ProductsComp from './Products';
-import CustomersComp from './Customers';
+import CustomersComp from './Customer/Customers';
 import PurchasesComp from './Purchases';
 import firebase from './firebaseApp'
 import {useSelector,useDispatch} from 'react-redux'
 import EditProductComp from './EditProduct';
 import EditCustomerComp from './EditCustomer';
 import AddProductComp from './AddProduct';
-import PrivateRoute from './PrivateRoute';
-import { AuthProvider, useAuth } from './AuthContext';
+import PrivateRoute from './Auth/PrivateRoute';
+import { AuthProvider, useAuth } from './Auth/AuthContext';
 import Utils from './Utils';
 import auth from './firebaseApp'
 import AccountPageComp from './AccountPage';
