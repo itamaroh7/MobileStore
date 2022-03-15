@@ -4,7 +4,7 @@ import FilterAlt from '@mui/icons-material/FilterAlt';
 import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import {useEffect, useState} from 'react'
 import {useSelector} from 'react-redux'
-import Utils from './Utils';
+import Utils from '../Utils/Utils';
 import PurchaseCardComp from './PurchaseCard';
 
 function PurchasesComp() {

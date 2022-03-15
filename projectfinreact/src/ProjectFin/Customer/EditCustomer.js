@@ -5,8 +5,8 @@ import { Button, Card, CardActions, CardContent, Grid, Paper, TextField,IconButt
 import { useSelector,useDispatch } from 'react-redux';
 import {useState,useEffect} from 'react'
 import {useParams,useHistory,Link} from 'react-router-dom'
-import Utils from './Utils';
-import firebase from './firebaseApp'
+import Utils from '../Utils/Utils';
+import firebase from '../firebaseApp'
 
 
 function EditCustomerComp() {

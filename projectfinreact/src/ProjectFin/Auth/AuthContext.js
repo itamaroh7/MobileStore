@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from'react'
 import {auth} from'../firebaseApp'
 import firebase from '../firebaseApp'
 import {useDispatch} from 'react-redux'
-import Utils from '../Utils'
+import Utils from '../Utils/Utils'
 
 const AuthContext=React.createContext()
 
@@ -21,10 +21,15 @@ export function AuthProvider({children})
     function signup(email,password,userName,fName,lName,city){
         return auth.createUserWithEmailAndPassword(email,password)
         .then(data=>{
+            try{
             firebase.firestore().collection('Users').add({FirstName:fName,LastName:lName,City:city,Email:email,Role:'user',userId:data.user.uid,userName:userName})
             .then(data2=>{
                 dispatch({type:"INITUSERROLE",payload:'user'})
             })
+        }
+        catch(e){
+            console.log(e)
+        }
         })
     }
 

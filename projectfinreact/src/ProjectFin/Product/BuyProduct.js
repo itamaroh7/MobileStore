@@ -2,7 +2,7 @@ import { Autocomplete,Button,IconButton,TextField } from "@mui/material"
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import ShoppingCart from '@mui/icons-material/ShoppingCart';
-import firebase from './firebaseApp'
+import firebase from '../firebaseApp'
 
 
 function BuyProductComp(props)

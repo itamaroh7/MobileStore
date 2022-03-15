@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import MainPageComp from './ProjectFin/MainPage';
-import LoginComp from './Login';
-import SignupComp from './Signup';
+import MainPageComp from './ProjectFin/Main/MainPage';
+import LoginComp from './ProjectFin/Main/Login';
+import SignupComp from './ProjectFin/Main/Signup';
 import {Switch,Route} from 'react-router-dom'
-import PrivateRoute from './ProjectFin/PrivateRoute';
-import { AuthProvider } from './ProjectFin/AuthContext';
+import PrivateRoute from './ProjectFin/Auth/PrivateRoute';
+import { AuthProvider } from './ProjectFin/Auth/AuthContext';
 
 
 

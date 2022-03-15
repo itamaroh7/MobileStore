@@ -2,7 +2,7 @@ import { Box, Button, Card, CardContent, CardHeader, Grid, Typography,TextField 
 import { useRef } from "react";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { useAuth } from "./AuthContext";
+import { useAuth } from "../Auth/AuthContext";
 
 
 export default function ProfilePageComp()

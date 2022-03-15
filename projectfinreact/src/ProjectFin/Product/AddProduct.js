@@ -3,7 +3,7 @@ import Add from '@mui/icons-material/Add';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router';
-import firebase from './firebaseApp'
+import firebase from '../firebaseApp'
 
 
 function AddProductComp()

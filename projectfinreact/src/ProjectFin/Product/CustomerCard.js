@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, IconButton, Paper } from "@mui/material"
 import { useEffect, useState } from "react"
 import { useSelector } from "react-redux"
 import ProductInCustomerComp from "./ProductInCustomer"
-import Utils from '../Utils';
+import Utils from '../Utils/Utils';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import BuyProductComp from "./BuyProduct";

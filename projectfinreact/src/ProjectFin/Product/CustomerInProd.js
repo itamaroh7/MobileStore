@@ -4,7 +4,7 @@ import ExpandMore from '@mui/icons-material/ExpandMore'
 import NavigateNext from '@mui/icons-material/NavigateNext'
 import {useEffect, useState} from 'react'
 import {useSelector,useDispatch} from 'react-redux'
-import firebase from './firebaseApp'
+import firebase from '../firebaseApp'
 
 
 

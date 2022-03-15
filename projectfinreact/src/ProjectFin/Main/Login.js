@@ -11,7 +11,7 @@ import {
 import { maxWidth } from "@mui/system";
 import { useState,useRef } from "react";
 import {useHistory} from 'react-router-dom'
-import { useAuth } from "./ProjectFin/AuthContext";
+import { useAuth } from "../Auth/AuthContext";
 
 export default function LoginComp() {
 

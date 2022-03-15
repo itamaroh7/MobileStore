@@ -8,10 +8,10 @@ import {
     Button,
     Link,
   } from "@mui/material";
-import firebase from "./ProjectFin/firebaseApp";
+import firebase from "../firebaseApp";
 import { useRef, useState } from "react";
 import { useHistory } from "react-router-dom";
-import { useAuth } from "./ProjectFin/AuthContext";
+import { useAuth } from "../Auth/AuthContext";
   
   export default function SignupComp() {
 
